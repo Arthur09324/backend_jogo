@@ -25,7 +25,7 @@ const server = Fastify()
 )
 
 server.post('/usuarios' , (req , reply)=>{
-
-    return req.body
+    SectionListData.push(req.body)
+    return 'Deu Certo'
  }
 )
