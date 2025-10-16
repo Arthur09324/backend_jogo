@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:3000/usuario
+
+###
+
+POST http://localhost:3000/personagem
+
+Content-Type:application/json
+
+{
+"nome": "leonardo de Athenas",
+"pilotagem": 2 ,
+"mira": -2 ,
+"carisma": 0
+}
+
+###
